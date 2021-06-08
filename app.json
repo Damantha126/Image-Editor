@@ -1,0 +1,49 @@
+{
+    "name": "Image-Editor-Bot",
+    "description": "A Bot that can Edit Images in various modes",
+    "logo": "https://telegra.ph/file/6b47c77f2f6abfe81fbeb.jpg",
+    "keywords": [
+        "Image",
+        "Editor",
+        "Telegram Bot",
+        "Damantha126"
+    ],
+    "website": "https://damantha.tk/web",
+    "repository": "https://github.com/Damantha126/Image-Editor",
+    "success_url": "https://telegram.dog/Damantha126",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "RemoveBG_API": {
+            "description": "Get this api from https://www.remove.bg/b/background-removal-api",
+            "value": "",
+            "required": false
+        },
+        "WEBHOOK": {
+            "description": "Set this Value to 'ANYTHING'. Don't Change it",
+            "value": "ANYTHING"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
