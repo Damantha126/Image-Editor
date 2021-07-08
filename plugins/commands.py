@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from script import script  # pylint:disable=import-error
 
 
-@Client.on_message(filters.command(["chatmemberupdate"]) & filters.private)
+@Client.on_message(filters.command(["start"]) & filters.private)
 async def start(client: Client, message: Message):
     try:
         await message.reply_text(
