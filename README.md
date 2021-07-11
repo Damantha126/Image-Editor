@@ -1,4 +1,4 @@
-# Image Editor
+# Image Editor ![GitHub repo size](https://img.shields.io/github/repo-size/Damantha126/Image-Editor?label=Repo%20Size)
 
 <p align="center">
   <a href="https://www.python.org">
